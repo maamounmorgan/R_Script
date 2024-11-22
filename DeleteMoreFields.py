@@ -29,23 +29,5 @@ def delete_fields(table, exclude_types=[], exclude_prefix=""):
   # حذف الحقول
 delete_fields(fc, exclude_types, exclude_prefix)
 
-# تحديد أنواع الحقول المراد حذفها
-#exclude_types = ['String']
-
-# تحديد البادئة المراد حذفها لأسماء الحقول
-#exclude_prefix = "FCLASS_"
 
 
-
-# تحديد أنواع الحقول المراد استبعادها
-#exclude_types = ['String']
-
-# تحديد البادئة المراد استبعادها لأسماء الحقول
-#exclude_prefix = "FCLASS_"
-
-# استبعاد الحقول وتخزينها في قائمة
-#fields = excludeFields(fc, exclude_types, exclude_prefix)
-
-# طباعة قائمة الحقول التي تمت الإبقاء عليها
-#print(fields)
-print("Hello")
